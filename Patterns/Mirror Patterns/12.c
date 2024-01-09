@@ -1,3 +1,13 @@
+/*
+Implement this pattern.
+
+    A  B  C  D  E  D  C  B  A
+    A  B  C  D     D  C  B  A
+    A  B  C           C  B  A
+    A  B                 B  A
+    A                       A
+
+*/
 #include<stdio.h>
 int main()
 {

@@ -1,3 +1,13 @@
+/*
+Implement this pattern.
+
+    1
+    2 5
+    3 6 8
+    4 7 9 10
+
+*/
+
 #include<stdio.h>
 int main()
 {

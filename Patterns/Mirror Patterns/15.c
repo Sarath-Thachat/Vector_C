@@ -1,3 +1,17 @@
+/*
+Implement the function.
+
+    A  B  C  D  E  D  C  B  A
+    A  B  C  D     D  C  B  A
+    A  B  C           C  B  A
+    A  B                 B  A
+    A                       A
+    A  B                 B  A
+    A  B  C           C  B  A
+    A  B  C  D     D  C  B  A
+    A  B  C  D  E  D  C  B  A
+    
+*/
 #include<stdio.h>
 int main()
 {
