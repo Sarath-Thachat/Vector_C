@@ -1,6 +1,5 @@
-/*      Write a program to enter 10 elements into an array and find the particular
-        given element is present or not. If present display that how many
-        number of times the  element is present.                                        */
+/*      Write a program to enter 10 elements into an array and find the particular given element is present or not. 
+        If present display that how many number of times the  element is present.                                        */
 
 #include<stdio.h>
 int main()
@@ -26,7 +25,7 @@ int main()
     for(j=0;j<ele;j++)
     if(a[j]==n)
     flag+=1;
-
+    
     if(flag!=0)
     printf("%d is present in the Array %d times\n",n,flag);
     else

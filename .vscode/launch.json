@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "e:/Vector/Codes/Pointers",
-      "program": "e:/Vector/Codes/Pointers/build/Debug/outDebug",
+      "cwd": "e:/Vector/Codes/Array",
+      "program": "e:/Vector/Codes/Array/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
