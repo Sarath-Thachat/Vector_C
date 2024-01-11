@@ -3,13 +3,17 @@
 #include<stdio.h>
 int main()
 {
-    int i, j, a[5] = {};
-    printf("Enter the integers\n");
+    int i, j, n;
+    printf("Enter the number of elements\n");
+    scanf("%d",&n);
+    
+    int a[n];
 
-    for(i=0;i<5;i++)
+    printf("Enter the integers\n");
+    for(i=0;i<n;i++)
     scanf("%d",&a[i]);
 
-    for(j=0;j<5;j++)
+    for(j=0;j<n;j++)
     printf("%d ",a[j]);
 
     printf("\n");
