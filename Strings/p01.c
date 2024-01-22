@@ -6,7 +6,7 @@ int main()
     int i, alph=0, digit=0, ch=0;
     char s[20];
     printf("Enter the characters\n");
-    scanf("%s",&s);
+    scanf("%s",s);
     
     for(i=0;s[i];i++)
     {
