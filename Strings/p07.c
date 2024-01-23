@@ -6,6 +6,7 @@ char * string_copy(char *, char *);
 
 int main()
 {
+    int i;
     char a[100],b[100];
     printf("Enter the string\n");
     scanf("%s",a);
