@@ -9,8 +9,10 @@ int main()
     printf("Enter the string\n");
     scanf("%s",a);
 
+    printf("The original string is\n%s\n",a);
+
     rev(a);
-    
+    printf("The reverse string is\n");
     printf("%s",a);
     printf("\n");
 }
@@ -25,6 +27,6 @@ char * rev(char *a)
             temp=a[i];
             a[i]=a[j];
             a[j]=temp;
-        }
+        }       
     }
 }
