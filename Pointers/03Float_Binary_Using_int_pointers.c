@@ -3,7 +3,6 @@ void binary (int);
 int main()
 {
     float x;
-    int op, msb, i;
     printf("Enter the Number\n");
     scanf("%f",&x);
     int *ip= &x;
