@@ -2,7 +2,7 @@
 int main()
 {
     float x;
-    int op, msb, i;
+    int msb, i;
     printf("Enter the Number\n");
     scanf("%f",&x);
     
