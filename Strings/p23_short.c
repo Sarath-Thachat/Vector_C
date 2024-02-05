@@ -1,9 +1,12 @@
+/*      Write a program to reverse the order in which words appear in a given string.      
+        Ex: Input  - Vector India Pvt Ltd
+            Output - Ltd Pvt India Vector                                                 */
+
 #include<stdio.h>
-#include<string.h>
 
 int main()
 {
-    int i, x, y;
+    int i, j, x, y;
     char a[50], temp;
     printf("Enter the string\n");
     scanf("%[^\n]",a);
@@ -26,9 +29,13 @@ int main()
                     a[y] = temp;
                 }
             }
-            else 
-            continue;
         }
+    }
+    for(i=i-1,j=0;j<i;j++,i--)
+    {
+        temp = a[i];
+        a[i] = a[j];
+        a[j] = temp;
     }
     printf("The Reversed String = %s\n",a);
 }

@@ -32,5 +32,5 @@ int main()
     if(p==NULL)
     printf("%c is not present in %s\n",ch,a);
     else
-    printf("%c is present in %s at address %p\n",ch,a,p);
+    printf("%c is present in %s at address %s\n",ch,a,p);
 }

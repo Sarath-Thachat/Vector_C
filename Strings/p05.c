@@ -18,7 +18,7 @@ int main()
 }
 char * rev(char *a)
 {
-    int i,j, temp;
+    int i, j, temp;
     for(j=0;a[j];j++);
     for(i=0,j=j-1;i<j;i++,j--)
     {

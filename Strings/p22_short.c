@@ -1,5 +1,8 @@
+/*      Write a program to reverse the letters in each word of a given string.      
+        Ex: Input  - Vector India Pvt Ltd
+            Output - rocteV aidnI tvP dtL                                           */
+
 #include<stdio.h>
-#include<string.h>
 
 int main()
 {
@@ -26,8 +29,6 @@ int main()
                     a[y] = temp;
                 }
             }
-            else 
-            continue;
         }
     }
     printf("The Reversed String = %s\n",a);
