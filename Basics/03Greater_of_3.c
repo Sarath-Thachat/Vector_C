@@ -17,5 +17,5 @@ int main()
     else if((x == z) && (x>y))
     printf("x = %d & z = %d are equal and greater\n",x,z);
     else
-    printf("x = %d , y = %d & z = %d are equal and greater\n",x,y,z);
+    printf("x = %d , y = %d & z = %d are equal\n",x,y,z);
 }

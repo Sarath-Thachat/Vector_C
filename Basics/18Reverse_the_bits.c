@@ -10,7 +10,8 @@ int main()
     Binary(num);
 
     int MSB = sizeof(num)*8-1;
-    for(p1=MSB, p2=0;p1>=((MSB+1)/2),p2<=((MSB-1)/2);p1--,p2++)
+    //for(p1=MSB, p2=0;p1>=((MSB+1)/2),p2<=((MSB-1)/2);p1--,p2++)
+    for(p1=MSB,p2=0;p2<p1;p1--,p2++)
     {
         if(((num>>p1)&1)!=((num>>p2)&1))
         {
