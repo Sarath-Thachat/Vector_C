@@ -6,27 +6,27 @@
 
 int main()
 {
-    int i, x, y;
+    int i, start, end;
     char a[50], temp;
     printf("Enter the string\n");
     scanf("%[^\n]",a);
 
     printf("The Entered String  = %s\n",a);
-    x=0, y=0;
+    start=0, end=0;
     for(i=0;a[i];i++)
     {
         if(a[i]!=' ')
         {
             if( ((a[i-1]==' ')||(i==0)) )
-            x = i;
+            start = i;
             else if( ((a[i+1]==' ')||(a[i+1]=='\0')) )
             {
-                y = i;
-                for(x,y;x<y;x++,y--)
+                end = i;
+                for(start,end; start<end; start++,end--)
                 {
-                    temp = a[x];
-                    a[x] = a[y];
-                    a[y] = temp;
+                    temp = a[start];
+                    a[start] = a[end];
+                    a[end] = temp;
                 }
             }
         }

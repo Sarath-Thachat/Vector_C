@@ -42,5 +42,4 @@ int main()
             printf("%d is present %d times\n",a[i],count);
         }
     }
-
 }
