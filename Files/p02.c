@@ -1,3 +1,4 @@
+/*      Write a program to copy one file to multiple files.     */
 #include<stdio.h>
 int main(int argc, char* argv[])
 {
