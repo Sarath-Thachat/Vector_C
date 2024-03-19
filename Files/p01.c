@@ -6,27 +6,29 @@
 
 #include<stdio.h>
 
-int main()
+int main(int argc,char* argv[])
 {
-    int i, char_cnt=0, line_cnt=1, start=0, big=0, line_ch_cnt,ln=0;
+    int i, cnt=0, char_cnt=0, line_cnt=0, big=0,ln=0;
     char ch;
     
-    FILE* fp = fopen("p01.c","r");
+    FILE* fp = fopen("data.txt","r");
     
     for(i=0;(ch=fgetc(fp))!=EOF;i++)
     {
+        char_cnt++;
+        cnt++;
         if(ch == '\n')
         {
-            line_ch_cnt = i-start+1;
-            if(line_ch_cnt>big)
+            line_cnt++;
+            if(cnt>big)
             {
-                big = line_ch_cnt;
+                big = cnt;
                 ln = line_cnt;
             }
-            start = i+1;
-            line_cnt++;
+            cnt = 0;
         }
-        char_cnt++;
+        
     }
+    fclose(fp);
     printf("1. File size : %d\n2. Number of lines : %d\n3. Maximum line length : %d\n4. Maximum line number : %d\n",char_cnt,line_cnt,big,ln);
 }
