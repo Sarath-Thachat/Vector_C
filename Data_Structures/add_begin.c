@@ -1,4 +1,4 @@
-#include"header.c"
+#include"header.h"
 
 void add_begin(ST** ptr)
 {

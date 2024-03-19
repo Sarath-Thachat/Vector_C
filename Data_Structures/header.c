@@ -1,5 +1,4 @@
-#ifndef __HEADER_C__
-#define __HEADER_C__
+
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -15,4 +14,3 @@ typedef struct student
 void add_begin(ST**);
 void print(ST*);
 
-#endif
